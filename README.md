@@ -43,7 +43,7 @@ docker exec -it usdtz-deployer node scripts/addLiquidity.js
 - เพื่อให้ Wallet แสดงโลโก้และราคา $1 (ไม่ใช่ราคาจริงจากตลาด):
   - อัปโหลด `assets/tokenlist.json` ไปยัง GitHub repo ของคุณ (หรือ host ที่เข้าถึงได้)
   - ใน Wallet (MetaMask): ไปที่ Settings > Networks > Add Custom Token List
-  - ใส่ URL ของ tokenlist.json (เช่น `https://raw.githubusercontent.com/your-repo/main/assets/tokenlist.json`)
+  - ใส่ URL ของ tokenlist.json (เช่น `https://raw.githubusercontent.com/khanitohm/USDTz-Final/main/assets/tokenlist.json`)
   - Import token list
 - หรือเพิ่มโลโก้และราคาเองผ่าน extension หรือ Dapp ที่รองรับ
 
