@@ -12,11 +12,16 @@
   "tokens": [
     {
       "chainId": 56,
-      "address": "0xYOUR_DEPLOYED_USDTZ_ADDRESS",
+      "address": "0x19cbb17CB5002200AbD36Fd3faFAD6Ef3BC279Bf",
       "name": "USDT.z",
       "symbol": "USDTz",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/your-repo/main/assets/tether-usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/khanitohm/USDTz-Final/master/assets/tether-usdt-logo.png",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "price": 1.0,
+        "priceUSD": "1.00"
+      }
     }
   ]
 }
