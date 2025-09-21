@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  usdtz:
+    build: ./docker
+    container_name: usdtz-deployer
+    working_dir: /app
+    volumes:
+      - .:/app
+    environment:
+      - RPC_URL=${RPC_URL}
+      - PRIVATE_KEY=${PRIVATE_KEY}
+      - INITIAL_HOLDER=${INITIAL_HOLDER}
+      - INITIAL_SUPPLY=${INITIAL_SUPPLY}
+    command: >
+      sh -c "npm install &&
+             npx hardhat compile &&
+             npx hardhat run scripts/deploy.js --network bsc"

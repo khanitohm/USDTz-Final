@@ -1,0 +1,22 @@
+{
+  "name": "USDTz Custom Token List",
+  "timestamp": "2025-09-21T00:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://raw.githubusercontent.com/your-repo/main/assets/tether-usdt-logo.png",
+  "keywords": ["usdtz", "stablecoin"],
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0xYOUR_DEPLOYED_USDTZ_ADDRESS",
+      "name": "USDT.z",
+      "symbol": "USDTz",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/your-repo/main/assets/tether-usdt-logo.png"
+    }
+  ]
+}
